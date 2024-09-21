@@ -35,7 +35,8 @@
                         clifford: '#da373d',
                         text1:'rgba(33, 33, 33, 1)',
                         text2:'rgba(73, 73, 73, 1)',
-                        btnbg:'rgba(171, 239, 95, 1)',
+                        btnbg1:'rgba(171, 239, 95, 1)',
+                        btnbg2: 'rgba(171, 239, 95, 0.5)'
                     },
                     backgroundImage: {
                         background: "url('./assets/bg.jpg')",
@@ -62,7 +63,7 @@
               <a class=" text-3xl font-bold  btn btn-ghost ">
                   <div class="h-6 w-6 relative bg-black rounded-full ">
                       <i
-                          class=" font-bold text-3xl rotate-45 text-btnbg fa-solid fa-circle-arrow-up  absolute right-0 -top-1"></i>
+                          class=" font-bold text-3xl rotate-45 text-btnbg1 fa-solid fa-circle-arrow-up  absolute right-0 -top-1"></i>
                   </div>
                   Rinterio
               </a>
@@ -89,7 +90,7 @@
                       <i class="fa-solid fa-cart-shopping"></i>
                   </div>
               </div>
-              <a class="font-bold btn rounded-3xl text-xl hidden md:flex border-none bg-btnbg">Book Consult <i
+              <a class="font-bold btn rounded-3xl text-xl hidden md:flex border-none bg-btnbg1">Book Consult <i
                       class="fa-solid fa-circle-arrow-up font-bold text-2xl rotate-45"></i></a>
           </div>
           <div class="dropdown">
@@ -102,6 +103,68 @@
      </header>
      <!-- Main Section ----->
       <main>
+        <section class="container mx-auto my-12  lg:px-10">
+            
+             <div class="mx-auto">
+              <img class="mx-auto" src="assets/banner.png" alt="">
+             </div>
+             <div class="my-6 w-9/12 mx-auto text-center">
+              <h1 class="text-6xl text-text1 font-extrabold my-6">A barn house of this design has a striking appearance</h1>
+              <p class="text-text2 font-medium my-6">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents, and large windows that flood the space with natural light.</p>
+              <a class="font-bold btn bg-btnbg2 rounded-3xl text-xl w-full md:w-auto">
+                View Details
+                <div class="h-6 w-6 rounded-full relative">
+                    <i class="fa-solid fa-arrow-right -rotate-45 bg-btnbg1 p-1 rounded-full"></i>
+                </div>
+            </a>
+             </div>
+        </section>
+
+        <!-- Livable Spaces -->
+        <section class="bg-[#f4f4f4] my-12 py-12">
+          <div class="container mx-auto my-12 w-5/6 lg:px-10 grid grid-cols-1 md:grid-cols-2 gap-12">
+            <div>
+              <div class="flex justify-center mb-5 lg:justify-start relative ">
+                <img class="absolute   -top-16 -left-16  hidden lg:block" src="assets/Vector.png" alt="">
+                <button class="btn bg-white rounded-full ">
+                    <img src="" alt="">
+                    <i class="fa-solid fa-arrow-right font-bold"></i>
+                    About Us
+                </button>
+            </div>
+            <div>
+              <h1 class="text-text1 text-5xl font-bold my-6">We design thoughtful, liveable spaces</h1>
+              <p class="text-text1 font-medium  my-6">The barn house captivates with its blend of rustic charm and 
+                modern sophistication, featuring weathered wood, sleek metal accents.</p>
+            </div>
+            <!----card -->
+            <div class="bg-white rounded-lg flex gap-10  items-center justify-center p-4 mb-5">
+              <div class="my-6">
+                <img src="assets/commercial.png" alt="">
+              </div>
+              <div>
+                <h2 class="text-xl font-bold text-text1">Commercial</h2>
+                <p class="text-text1 font-medium">The barn house captivates with its blend of rustic charm and modern.</p>
+              </div>
+            </div>
+            <div class="bg-white rounded-lg flex gap-10 items-center justify-center p-4">
+              <div class="my-6">
+                <img src="assets/residential.png" alt="">
+              </div>
+              <div>
+                <h2 class="text-xl font-bold text-text1">Residential</h2>
+                <p class="text-text1 font-medium">The barn house captivates with its blend of rustic charm and modern.</p>
+              </div>
+            </div>
+
+            </div>
+            <div>
+              <img src="assets/Rectangle.png" alt="">
+            </div>
+
+          </div>
+
+        </section>
 
       </main>
 
